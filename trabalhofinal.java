@@ -10,14 +10,19 @@ public class trabalhofinal {
 
     static void menuHome() {
         while (true) {
-            System.out.println("\n===== FATMOTORS =====");
-            System.out.println("1 - Ver veículos");
-            System.out.println("2 - Localização");
-            System.out.println("3 - Sobre nós");
-            System.out.println("4 - Contato");
-            System.out.println("5 - Entrar");
-            System.out.println("6 - WhatsApp da Loja");
-            System.out.println("0 - Sair");
+            System.out.println("\n _____ ____ _____ _      ____ _____ ____  ____  ____ \r\n"
+            		+ "/    //  _ Y__ __Y \\__/|/  _ Y__ __Y  _ \\/  __\\/ ___\\\r\n"
+            		+ "|  __\\| / \\| / \\ | |\\/||| / \\| / \\ | / \\||  \\/||    \\\r\n"
+            		+ "| |   | |-|| | | | |  ||| \\_/| | | | \\_/||    /\\___ |\r\n"
+            		+ "\\_/   \\_/ \\| \\_/ \\_/  \\|\\____/ \\_/ \\____/\\_/\\_\\\\____/\r\n"
+            		+ "                                                     ");
+            System.out.println("1) Ver veículos");
+            System.out.println("2) Localização");
+            System.out.println("3) Sobre nós");
+            System.out.println("4) Contato");
+            System.out.println("5) Entrar");
+            System.out.println("6) WhatsApp da Loja");
+            System.out.println("0) Desconectar");
             System.out.print("Escolha: ");
 
             int op = sc.nextInt();
@@ -41,20 +46,20 @@ public class trabalhofinal {
     }
 
     static void paginaLocalizacao() {
-        System.out.println("\n===== LOCALIZAÇÃO =====");
+        System.out.println("\n======= LOCALIZAÇÃO =======");
         System.out.println("R. Inácio García, 321 - Cidade Edson, Suzano - SP, 08665-120");
         voltarHome();
     }
 
     static void paginaSobre() {
-        System.out.println("\n===== SOBRE NÓS =====");
+        System.out.println("\n======= SOBRE NÓS =======");
         System.out.println("A FATMOTORS é a maior loja de veículos da região.");
         voltarHome();
     }
 
     static void paginaContato() {
         sc.nextLine();
-        System.out.println("\n===== FORMULÁRIO DE CONTATO =====");
+        System.out.println("\n======= FORMULÁRIO DE CONTATO =======");
         System.out.print("Seu nome: ");
         String nome = sc.nextLine();
 
@@ -73,7 +78,7 @@ public class trabalhofinal {
 
     static void paginaVeiculo() {
         while (true) {
-            System.out.println("\n===== VEÍCULOS =====");
+            System.out.println("\n======= VEÍCULOS =======");
             System.out.println("1 - Rolls Royce Ghost");
             System.out.println("2 - Porsche 911");
             System.out.println("3 - Ferrari F8");
@@ -99,28 +104,28 @@ public class trabalhofinal {
     }
 
     static void infoGhost() {
-        System.out.println("\n===== ROLLS ROYCE GHOST =====");
+        System.out.println("\n======= ROLLS ROYCE GHOST =======");
         System.out.println("Ano: 2020");
         System.out.println("Preço: R$ 4.500.000");
         voltarHome();
     }
 
     static void infoPorsche911() {
-        System.out.println("\n===== PORSCHE 911 =====");
+        System.out.println("\n======= PORSCHE 911 =======");
         System.out.println("Ano: 2021");
         System.out.println("Preço: R$ 1.200.000");
         voltarHome();
     }
 
     static void infoFerrariF8() {
-        System.out.println("\n===== FERRARI F8 TRIBUTO =====");
+        System.out.println("\n======= FERRARI F8 TRIBUTO =======");
         System.out.println("Ano: 2020");
         System.out.println("Preço: R$ 3.500.000");
         voltarHome();
     }
 
     static void infoAventador() {
-        System.out.println("\n===== LAMBORGHINI AVENTADOR =====");
+        System.out.println("\n======= LAMBORGHINI AVENTADOR =======");
         System.out.println("Ano: 2019");
         System.out.println("Preço: R$ 5.000.000");
         System.out.println("Informações:"
@@ -157,14 +162,14 @@ public class trabalhofinal {
     }
 
     static void infoFerrari458() {
-        System.out.println("\n===== FERRARI 458 ITALIA =====");
+        System.out.println("\n======= FERRARI 458 ITALIA =======");
         System.out.println("Ano: 2015");
         System.out.println("Preço: R$ 2.700.000");
         voltarHome();
     }
 
     static void infoGallardo() {
-        System.out.println("\n===== LAMBORGHINI GALLARDO =====");
+        System.out.println("\n======= LAMBORGHINI GALLARDO =======");
         System.out.println("Ano: 2013");
         System.out.println("Preço: R$ 1.300.000");
         voltarHome();
@@ -173,7 +178,7 @@ public class trabalhofinal {
 
     static void paginaLogin() {
         while (true) {
-            System.out.println("\n===== LOGIN =====");
+            System.out.println("\n======= LOGIN =======");
             System.out.println("1 - Login Google");
             System.out.println("2 - Login Facebook");
             System.out.println("3 - Login Apple");
@@ -213,7 +218,7 @@ public class trabalhofinal {
 
     static void cadastroCliente() {
         sc.nextLine();
-        System.out.println("\n===== CADASTRO CLIENTE =====");
+        System.out.println("\n======= CADASTRO CLIENTE =======");
 
         System.out.print("Nome completo: ");
         String nome = sc.nextLine();
@@ -238,7 +243,7 @@ public class trabalhofinal {
 
     static void cadastroFuncionario() {
         sc.nextLine();
-        System.out.println("\n===== CADASTRO FUNCIONÁRIO =====");
+        System.out.println("\n======= CADASTRO FUNCIONÁRIO =======");
 
         System.out.print("Nome completo: ");
         String nome = sc.nextLine();
@@ -262,7 +267,7 @@ public class trabalhofinal {
         String email = sc.nextLine();
 
         System.out.print("Senha: ");
-        String senha = sc.nextLine();
+        String senha = sc.nextLine(); 
 
         System.out.print("Confirmar senha: ");
         String cs = sc.nextLine();
